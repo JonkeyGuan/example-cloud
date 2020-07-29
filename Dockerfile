@@ -1,5 +1,5 @@
 # 基础镜像信息
-FROM quay-prod.bj.gree/root/cloudos:pythonbase3.5_linux
+FROM quay-dev.bj.gree/root/cloudos:pythonbase3.5_linux
 # 创建目录
 RUN mkdir -p /usr/local/ph
 # 拷贝文件
